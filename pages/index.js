@@ -3,11 +3,16 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { Navbar } from "../components/Navbar";
 import HeroBg from "../assets/images/hero.png"
+import Layout from "../assets/images/layout.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Logo from "../assets/images/logo2.png"
+import Blog from "../assets/images/blog.png"
+
 
 export default function Home() {
   return (
     <div>
+      <div className="bg-layout bg-cover bg-no-repeat bg-center" >
       <div className="bg-cover bg-no-repeat bg-center  px-20  bg-my_bg_image md:h-screen pb-10 ">
         <Navbar />
         <Head>
@@ -69,7 +74,7 @@ export default function Home() {
               </h1>
               <button
                 type="text"
-                className=" text-lg bg-secondary text-white rounded-lg px-5 py-2"
+                className=" text-lg bg-secondary text-primary rounded-lg px-5 py-2 font-semibold"
               >
                 Register now
               </button>
@@ -193,20 +198,204 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="mt-10 ">
+          <div className="flex justify-center " >
+          <h1 className=" text-primary text-4xl font-bold border-b-4   border-secondary   pb-2">Adverts</h1>
+          </div>
+          
+        </div>
+        <div className="pt-10 pb-20 px-20 "> 
+        <div className="flex justify-center " >
+          <h1 className=" text-primary text-4xl font-bold border-b-4  border-secondary   pb-2 text-center">Join our Newsletter</h1>
+          </div>
+          <div className="flex mt-20 space-x-20">
+          <div className="pt-20 w-1/2">
+            <h1 className="text-primary text-6xl font-bold w-2/3">The new world 
+of Tech</h1>
+<p className="pt-5 text-primary text-lg font-semibold ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ip. Pharetra elit pellentesque ac nunc arcu. Sit sed amet duis turpis quam cras nisl diam tellus ultrices vitae.</p>
+<button
+                type="text"
+                className=" text-lg bg-secondary text-primary rounded-lg px-5 py-2 mt-10 font-semibold"
+              >
+                Read more
+              </button>
+            </div>
+          <div className="w-1/2">
+               <Image src={Blog}  alt="" fill= "responsive" />
+          </div>
+          </div>
+        </div>
       </section>
+      </div>
+      <footer className="w-full shadow-5xl">
+      <div className="bg-footer_bg h-75 ">
+        <div className="container grid grid-flow-row-dense gap-2 grid-cols-3 md:grid-cols-4 justify-between w-full px-5 pb-2 mx-auto">
+          <div className="pt-5 flex flex-col col-span-2">
+            <div>
+            <a href="£1" className="flex items-center">
+            <Image src={Logo} width={200} height={80} alt="" />
+            </a>
+            <p className="text-1.5xl font-extrabold text-primary" style={{}}>
+              www.emplug.com
+            </p>
+            <p className="text-sm font-serif text-primary">info@plugbay.com</p>
+            </div>
+            <div className="flex space-x-4 mt-3">
+            <div>
+                <span className="w-8 pr-5">
+                  <svg
+                    className="fill-primary font-bold"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                  </svg>
+                </span>
+              </div>
+              <div>
+                <span className="w-8 pr-5">
+                  <svg
+                    className="fill-primary"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                  </svg>
+                </span>
+              </div>
+              <div className="w-3 ">
+                <span>
+                  <svg
+                    className="fill-primary"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512"
+                  >
+                    <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                  </svg>
+                </span>
+              </div>
+              <div className="w-5">
+                <span>
+                  <svg className="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="col-span-2">
+            <div className="grid grid-flow-row-dense lg:grid-cols-3 gap-2 justify-between w-full px-5 pt-5 pb-2 mx-auto grid-cols-2">
+              <div className="font-inter font-medium text-0.6xl">
+                <p className="text-xl mb-5 font-san font-bold text-primary">
+                 Company
+                </p>
+                <a href="">
+                  <p className="text-primary mt-1.5">About Plugbay</p>
+                </a>
+                <a href="">
+                  <p className="text-primary mt-1.5">Press Releases</p>
+                </a>
+                <a href="">
+                  <p className="text-primary mt-1.5">Blog</p>
+                </a>
+                
+              </div>
+              <div className="font-inter font-medium text-0.6xl ">
+                <p className="text-xl mb-5 font-san font-bold text-primary">
+                  Resources
+                </p>
+                <a href="">
+                  <p className="text-primary mt-1.5">FAQ</p>
+                </a>
+                <a href="">
+                  <p className="text-primary mt-1.5">Terms of use</p>
+                </a>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+                <a href="">
+                  <p className="text-primary mt-1.5">Privacy Policy</p>
+                </a>
+                <a href="">
+                  <p className="text-primary mt-1.5">Contact us</p>
+                </a>
+                
+              </div>
+              <div className="font-inter font-medium text-0.2xl">
+                <p className="text-xl mb-5 font-san font-bold text-primary">
+                  Learn About
+                </p>
+                <a href="">
+                  <p className="text-primary mt-1.5">Membership</p>
+                </a>
+                <a href="">
+                  <p className="text-primary mt-1.5">What is EVP ?</p>
+                </a>
+                <a href="">
+                  <p className="text-primary mt-1.5">Micro-Advertising</p>
+                </a>
+                <a href="">
+                  <p className="text-primary mt-1.5">The Plugbay Center</p>
+                </a>
+                <a href="">
+                  <p className="text-primary mt-1.5">Advertising options</p>
+                </a>
+              </div>
+             
+            </div>
+            <div className="flex  justify-end ">
+              <div className="flex mt-3 mr-2  w-48 h-14 bg-[black] text-white rounded-xl items-center justify-center">
+                <div className="">
+                  <svg viewBox="0 0 384 512" width="30">
+                    <path
+                      fill="white"
+                      d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div className="text-xs text-primary">Download on the</div>
+                  <div className="text-2xl font-semibold font-sans -mt-1 text-primary">
+                    App Store
+                  </div>
+                </div>
+              </div>
+              <div className="flex mt-3 w-48 h-14 bg-[black] text-white rounded-lg items-center justify-center">
+                <div className="">
+                  <svg viewBox="30 336.7 120.9 129.2" width="30">
+                    <path
+                      fill="#FFD400"
+                      d="M119.2,421.2c15.3-8.4,27-14.8,28-15.3c3.2-1.7,6.5-6.2,0-9.7  c-2.1-1.1-13.4-7.3-28-15.3l-20.1,20.2L119.2,421.2z"
+                    />
+                    <path
+                      fill="#FF3333"
+                      d="M99.1,401.1l-64.2,64.7c1.5,0.2,3.2-0.2,5.2-1.3  c4.2-2.3,48.8-26.7,79.1-43.3L99.1,401.1L99.1,401.1z"
+                    />
+                    <path
+                      fill="#48FF48"
+                      d="M99.1,401.1l20.1-20.2c0,0-74.6-40.7-79.1-43.1  c-1.7-1-3.6-1.3-5.3-1L99.1,401.1z"
+                    />
+                    <path
+                      fill="#3BCCFF"
+                      d="M99.1,401.1l-64.3-64.3c-2.6,0.6-4.8,2.9-4.8,7.6  c0,7.5,0,107.5,0,113.8c0,4.3,1.7,7.4,4.9,7.7L99.1,401.1z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div className="text-xs text-primary">GET IT ON</div>
+                  <div className="text-xl font-semibold font-sans -mt-1 text-primary">
+                    Google Play
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          
+        </div>
+        <div className="flex justify-center pt-5">
+                <h1 className="text-primary text-lg font-semibold">Copyright© 2022|PlugBay by Emplug| All rights reserved</h1>
+            </div>
+      </div>
+    </footer>
     </div>
   );
 }

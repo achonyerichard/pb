@@ -8,10 +8,13 @@ module.exports = {
     extend: {
       backgroundImage: {
         my_bg_image:
-          "linear-gradient(to right bottom, rgba(0,0,0,0),rgba(0,0,0,1)), url('../assets/images/hero.png')",
+          "linear-gradient(to right bottom, rgba(0,0,0,0.2),rgba(0,0,0,1)), url('../assets/images/hero.png')",
         body_bg:
           "linear-gradient(to right bottom, rgba(0,0,0,0.9),rgba(0,0,0,1))",
+          layout:"url('../assets/images/layout.png')",
+          footer_bg:"linear-gradient(to right bottom, #C41731,#BA3448)",
       },
+      
     },
     colors: {
       primary: "#ffffff",
