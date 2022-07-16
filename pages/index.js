@@ -114,12 +114,12 @@ export default function Home() {
                 <p className="text-primary text-xl font-semibold pb-2">
                   Let’s help show the world how valuable you are! ______
                 </p>
-                <h1 className="w-2/3 text-8xl text-primary font-bold pb-6">
+                <h1 className="w-2/3 font-mono text-7xl md:text-8xl text-primary font-bold pb-6">
                   Get Started with Us
                 </h1>
                 <button
                   type="text"
-                  className=" text-xl bg-secondary text-primary rounded-lg px-5 py-3 font-semibold"
+                  className=" text-xl bg-secondary font-serif text-primary rounded-lg px-5 py-3 font-semibold"
                 >
                   Register now
                 </button>
@@ -134,7 +134,9 @@ export default function Home() {
               data-aos-duration="2000"
               className="flex flex-col  mb-4 pb-2  md:pr-32 border-b-2 md:border-b-0 md:border-r-2 border-primary"
             >
-              <p className="text-primary">Total Users</p>
+              <p className="text-primary font-serif font-semibold text-xl">
+                Total Users
+              </p>
               <h1 className="text-2xl font-bold text-primary">178,705</h1>
             </div>
             <div
@@ -142,7 +144,9 @@ export default function Home() {
               data-aos-duration="2000"
               className="flex flex-col  mb-4 pb-2 md:pr-32 md:pl-32 border-b-2 md:border-b-0 md:border-r-2 border-primary"
             >
-              <p className="text-primary">Total Advert</p>
+              <p className="text-primary font-serif font-semibold text-xl">
+                Total Advert
+              </p>
               <h1 className="text-2xl font-bold text-primary">61,455</h1>
             </div>
             <div
@@ -150,7 +154,9 @@ export default function Home() {
               data-aos-duration="2000"
               className="flex flex-col  mb-4 pb-2 md:pr-32 md:pl-32 border-b-2 md:border-b-0 md:border-r-2 border-primary"
             >
-              <p className="text-primary">Total EVP Agents</p>
+              <p className="text-primary font-serif font-semibold text-xl">
+                Total EVP Agents
+              </p>
               <h1 className="text-2xl font-bold text-primary">62,637</h1>
             </div>
             <div
@@ -158,7 +164,7 @@ export default function Home() {
               data-aos-duration="2000"
               className="flex flex-col  mb-4 pb-2  md:pl-32 border-b-2 md:border-none   border-primary"
             >
-              <p className="text-primary">Total Requests</p>
+              <p className="text-primary font-serif font-semibold text-xl">Total Requests</p>
               <h1 className="text-2xl font-bold text-primary">504,892</h1>
             </div>
           </div>
@@ -168,7 +174,7 @@ export default function Home() {
               data-aos-duration="2000"
               className="rounded overflow-hidden shadow-lg border border-secondary"
             >
-              <div className="pt-10 pb-20 px-20">
+              <div className="pt-10 pb-20 md:px-20">
                 <div className="font-bold text-xl mb-2 flex justify-center">
                   <div className="w-20 h-20 mb-5 bg-secondary rounded-full flex justify-center items-center">
                     <span className="w-10 text-primary">
@@ -183,7 +189,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex justify-center ">
-                  <p className="text-sm text-primary text-center">
+                  <p className="text-lg font-normal md:font-semibold font-serif text-primary text-center">
                     Built with love for you. A PlugBay membership gives you
                     immense opportunities to showcase your skills
                   </p>
@@ -196,7 +202,7 @@ export default function Home() {
               data-aos-duration="2000"
               className="rounded overflow-hidden shadow-lg border border-secondary"
             >
-              <div className="pt-10 pb-20 px-20">
+              <div className="pt-10 pb-20 md:px-20">
                 <div className="font-bold text-xl mb-2 flex justify-center">
                   <div className="w-20 h-20 mb-5 bg-secondary rounded-full flex justify-center items-center">
                     <span className="w-10 text-primary">
@@ -211,7 +217,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex justify-center ">
-                  <p className="text-sm text-primary text-center">
+                  <p className="text-lg md:font-semibold font-serif text-primary text-center">
                     Looking for more workers or service providers? Use plugbay
                     to bring workers
                   </p>
@@ -224,7 +230,7 @@ export default function Home() {
               data-aos-duration="3000"
               className="rounded overflow-hidden shadow-lg border border-secondary"
             >
-              <div className="pt-10 pb-20 px-20">
+              <div className="pt-10 pb-20 md:px-20">
                 <div className="font-bold text-xl mb-2 flex justify-center">
                   <div className="w-20 h-20 mb-5 bg-secondary rounded-full flex justify-center items-center">
                     <span className="w-10 text-primary">
@@ -239,7 +245,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex justify-center ">
-                  <p className="text-sm text-primary text-center">
+                  <p className="text-lg md:font-semibold font-serif text-primary text-center">
                     Built with love for you. A PlugBay membership gives you
                     immense opportunities to showcase your skills
                   </p>
@@ -252,7 +258,7 @@ export default function Home() {
               data-aos-duration="3000"
               className="rounded overflow-hidden shadow-lg border border-secondary"
             >
-              <div className="pt-10 pb-20 px-20">
+              <div className="pt-10 pb-20 md:px-20">
                 <div className="font-bold text-xl mb-2 flex justify-center">
                   <div className="w-20 h-20 mb-5 bg-secondary rounded-full flex justify-center items-center">
                     <span className="w-10 text-primary">
@@ -267,7 +273,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex justify-center ">
-                  <p className="text-sm text-primary text-center">
+                  <p className="text-lg md:font-semibold font-serif text-primary text-center">
                     Advertise with freedom at last…no Internet, smart phone or
                     sms credit needed.
                   </p>
@@ -277,7 +283,7 @@ export default function Home() {
           </div>
           <div className="mt-10 mx-2 ">
             <div className="flex justify-center ">
-              <h1 className=" text-primary text-4xl font-bold border-b-4   border-secondary mb-5   pb-2">
+              <h1 className=" text-primary text-5xl font-bold border-b-4 font-mono  border-secondary mb-5   pb-2">
                 Adverts
               </h1>
             </div>
@@ -328,10 +334,10 @@ export default function Home() {
                       <Image src={Farmless} height={100} alt="" fill="" />
                     </div>
                     <div className="pt-10 md:pt-10 px-12 pb-5 md:px-0 md:w-1/2">
-                      <h1 className="text-primary text-3xl md:text-6xl font-bold w-full md:w-2/3">
+                      <h1 className="text-primary text-4xl md:text-6xl font-mono font-bold w-full md:w-2/3">
                         An App for Farmers
                       </h1>
-                      <p className="pt-5 text-primary text-lg font-normal md:w-2/3">
+                      <p className="pt-5 text-primary text-lg font-serif font-normal md:w-2/3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Ipsum molestie morbi ornare enim fermentum viverra sit
                         faucibus velit. Pharetra elit pellentesque ac nunc arcu.
@@ -386,7 +392,7 @@ export default function Home() {
           </div>
           <div className="pt-20 px-5 pb-5 md:pb-20 md:px-40 ">
             <div className="flex justify-center ">
-              <h1 className=" text-primary text-4xl font-bold border-b-4  border-secondary   pb-2 text-center">
+              <h1 className=" text-primary text-4xl font-mono font-bold border-b-4  border-secondary   pb-2 text-center">
                 Join our Newsletter
               </h1>
             </div>
@@ -396,17 +402,17 @@ export default function Home() {
                 data-aos-duration="3000"
                 className="pt-5 md:pt-20 md:w-1/2"
               >
-                <h1 className="text-primary text-3xl md:text-6xl font-bold w-full md:w-2/3">
+                <h1 className="text-primary text-3xl font-mono md:text-6xl font-bold w-full md:w-2/3">
                   The New World of Tech
                 </h1>
-                <p className="pt-5 text-primary text-lg font-semibold ">
+                <p className="pt-5 text-primary font-serif text-lg font-semibold ">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ip.
                   Pharetra elit pellentesque ac nunc arcu. Sit sed amet duis
                   turpis quam cras nisl diam tellus ultrices vitae.
                 </p>
                 <button
                   type="text"
-                  className=" text-lg bg-secondary text-primary rounded-lg px-5 py-2 mt-10 font-semibold"
+                  className=" text-lg bg-secondary font-serif text-primary rounded-lg px-5 py-2 mt-10 font-normal"
                 >
                   Read more
                 </button>
@@ -431,7 +437,7 @@ export default function Home() {
                     <Image src={Logo} width={200} height={80} alt="" />
                   </a>
                   <p
-                    className="text-1.5xl font-extrabold text-primary"
+                    className="text-1.5xl font-serif font-extrabold text-primary"
                     style={{}}
                   >
                     www.emplug.com
@@ -490,55 +496,75 @@ export default function Home() {
               <div className="col-span-2">
                 <div className="grid grid-flow-row-dense lg:grid-cols-3 gap-8 md:gap-2 justify-between w-full px-5 pt-5 pb-2 mx-auto grid-cols-2">
                   <div className="font-inter font-medium text-0.6xl">
-                    <p className="text-xl mb-5 font-san font-bold text-primary">
+                    <p className="text-xl mb-5 font-mono font-bold text-primary">
                       Company
                     </p>
                     <a href="">
-                      <p className="text-primary mt-1.5">About Plugbay</p>
+                      <p className="text-primary font-serif mt-1.5">
+                        About Plugbay
+                      </p>
                     </a>
                     <a href="">
-                      <p className="text-primary mt-1.5">Press Releases</p>
+                      <p className="text-primary font-serif mt-1.5">
+                        Press Releases
+                      </p>
                     </a>
                     <a href="">
-                      <p className="text-primary mt-1.5">Blog</p>
+                      <p className="text-primary font-serif mt-1.5">Blog</p>
                     </a>
                   </div>
                   <div className="font-inter font-medium text-0.6xl ">
-                    <p className="text-xl mb-5 font-san font-bold text-primary">
+                    <p className="text-xl mb-5 font-mono font-bold text-primary">
                       Resources
                     </p>
                     <a href="">
-                      <p className="text-primary mt-1.5">FAQ</p>
+                      <p className="text-primary font-serif mt-1.5">FAQ</p>
                     </a>
                     <a href="">
-                      <p className="text-primary mt-1.5">Terms of use</p>
+                      <p className="text-primary font-serif mt-1.5">
+                        Terms of use
+                      </p>
                     </a>
 
                     <a href="">
-                      <p className="text-primary mt-1.5">Privacy Policy</p>
+                      <p className="text-primary font-serif mt-1.5">
+                        Privacy Policy
+                      </p>
                     </a>
                     <a href="">
-                      <p className="text-primary mt-1.5">Contact us</p>
+                      <p className="text-primary font-serif mt-1.5">
+                        Contact us
+                      </p>
                     </a>
                   </div>
                   <div className="font-inter font-medium text-0.2xl">
-                    <p className="text-xl mb-5 font-san font-bold text-primary">
+                    <p className="text-xl mb-5 font-mono font-bold text-primary">
                       Learn About
                     </p>
                     <a href="">
-                      <p className="text-primary mt-1.5">Membership</p>
+                      <p className="text-primary font-serif mt-1.5">
+                        Membership
+                      </p>
                     </a>
                     <a href="">
-                      <p className="text-primary mt-1.5">What is EVP ?</p>
+                      <p className="text-primary font-serif mt-1.5">
+                        What is EVP ?
+                      </p>
                     </a>
                     <a href="">
-                      <p className="text-primary mt-1.5">Micro-Advertising</p>
+                      <p className="text-primary font-serif mt-1.5">
+                        Micro-Advertising
+                      </p>
                     </a>
                     <a href="">
-                      <p className="text-primary mt-1.5">The Plugbay Center</p>
+                      <p className="text-primary font-serif mt-1.5">
+                        The Plugbay Center
+                      </p>
                     </a>
                     <a href="">
-                      <p className="text-primary mt-1.5">Advertising options</p>
+                      <p className="text-primary font-serif mt-1.5">
+                        Advertising options
+                      </p>
                     </a>
                   </div>
                 </div>
@@ -553,10 +579,10 @@ export default function Home() {
                       </svg>
                     </div>
                     <div>
-                      <div className="text-xs text-primary">
+                      <div className="text-xs  text-primary">
                         Download on the
                       </div>
-                      <div className="text-2xl font-semibold font-sans -mt-1 text-primary">
+                      <div className="text-2xl font-semibold font-monos -mt-1 text-primary">
                         App Store
                       </div>
                     </div>
@@ -584,7 +610,7 @@ export default function Home() {
                     </div>
                     <div>
                       <div className="text-xs text-primary">GET IT ON</div>
-                      <div className="text-xl font-semibold font-sans -mt-1 text-primary">
+                      <div className="text-xl font-semibold font-monos -mt-1 text-primary">
                         Google Play
                       </div>
                     </div>
@@ -593,7 +619,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-center pt-5">
-              <h1 className="text-primary text-sm md:text-lg font-semibold">
+              <h1 className="text-primary text-sm font-serif md:text-lg font-semibold">
                 Copyright© 2022|PlugBay by Emplug| All rights reserved
               </h1>
             </div>

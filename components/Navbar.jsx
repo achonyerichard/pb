@@ -58,33 +58,33 @@ export const Navbar = ({navbar}) => {
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
             <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-primary font-bold items-center justify-center hover:bg-secondary hover:text-primary ">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-primary font-serif font-bold items-center justify-center hover:bg-secondary hover:text-primary ">
                 About
               </a>
             </Link>
             <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-primary font-bold items-center justify-center hover:bg-secondary hover:text-primary">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-primary font-serif font-bold items-center justify-center hover:bg-secondary hover:text-primary">
                 Memberships
               </a>
             </Link>
             <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-primary font-bold items-center justify-center hover:bg-secondary hover:text-primary">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-primary font-serif font-bold items-center justify-center hover:bg-secondary hover:text-primary">
                 How it works
               </a>
             </Link>
             <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-primary font-bold items-center justify-center hover:bg-secondary hover:text-white">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-primary font-serif font-bold items-center justify-center hover:bg-secondary hover:text-white">
                 Blogs
               </a>
             </Link>
             <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-primary font-bold items-center justify-center hover:bg-secondary hover:text-white">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-primary font-serif font-bold items-center justify-center hover:bg-secondary hover:text-white">
                 <button
                   type="text"
                   className={
                     !navbar
-                      ? " text-lg bg-secondary text-white rounded-lg px-5 py-2"
-                      : " text-lg bg-primary text-red-500 rounded-lg px-5 py-2"
+                      ? " text-lg bg-secondary text-white font-serif rounded-lg px-5 py-2"
+                      : " text-lg bg-primary text-red-500 font-serif rounded-lg px-5 py-2"
                   }
                 >
                   Login/Sign up
